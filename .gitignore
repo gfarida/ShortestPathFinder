@@ -1,0 +1,6 @@
+*.o
+minPathLen
+.vscode/
+__pycache__/
+*.out.tmp
+*.pyc
