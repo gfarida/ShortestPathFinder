@@ -22,4 +22,4 @@ test: $(TARGET)
 	@python3 -m pytest $(TEST_DIR)/test_minPathLen.py
 
 clean:
-	rm -f $(OBJ_FILES) $(TARGET)
+	rm -f $(OBJ_FILES) $(TARGET) *.out.tmp
